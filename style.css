@@ -65,6 +65,9 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
+.pics{
+    max-height: 200px;
+}
 /*thid css section--*/
 .wte{
     background-color: white;
@@ -86,15 +89,16 @@ h1{
 .hero4{
     height: 200px;
     width: 200px;
-    border-radius: 12px;
-    border-color: #3b82f6;
-    border-style: solid;
     max-width: 200px;
     display: flex;
+    max-height: 150px;
 }
 .sdb{
     max-width: 200px;
-    margin-top: 40px;
+    margin-top: 90px;
+}
+.sdd{
+    margin-top: 50px;
 }
 /*-----Section 3 paragraph---*/
 .grey{
