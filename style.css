@@ -1,5 +1,5 @@
 
-
+/*--top division--*/
 .container1{
     display: flex;
     justify-content: space-between;
@@ -14,14 +14,49 @@ ul{
     justify-content: space-evenly;
     list-style-type: none;
     gap: 20px;
-    align-items: center;
+
     padding: 8PX;
 }
 .hlogo{
     font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .hero{
     background-color: #1F2937;
     height: 800px;
     width:100%
+}
+/*second division---*/
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+
+.hero2{
+    width: 600px;  
+}
+h1{
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.stbtn{
+    background-color: #3b82f6;
+    color:white;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    border-style: none;
 }
